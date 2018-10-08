@@ -1,0 +1,113 @@
+{
+  "uid" : "5b76066717bb8bb9",
+  "name" : "pytest_allure_test.TestAllure.test_str",
+  "fullName" : "test.pytest_allure_test.TestAllure.test_str",
+  "historyId" : "1b4852a9bf285663bea69ec9930be59b",
+  "time" : {
+    "start" : 1539001396332,
+    "stop" : 1539001396337,
+    "duration" : 5
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'helloworld' == 'Hello World'\n  - helloworld\n  ? ^    ^\n  + Hello World\n  ? ^    ^^",
+  "statusTrace" : "self = <test.pytest_allure_test.TestAllure object at 0x105d75668>\n\n    @allure.story('test_story_05_of_module')\n    @allure.severity('critical')\n    @allure.issue('https://github.com/leefyi')\n    @allure.testcase('http://www.testlink.com')\n    def test_str(self):\n        str1 = 'hello'\n        str2 = 'world'\n    \n>       assert str_concat(str1, str2) == 'Hello World'\nE       AssertionError: assert 'helloworld' == 'Hello World'\nE         - helloworld\nE         ? ^    ^\nE         + Hello World\nE         ? ^    ^^\n\npytest_allure_test.py:73: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 'helloworld' == 'Hello World'\n  - helloworld\n  ? ^    ^\n  + Hello World\n  ? ^    ^^",
+    "statusTrace" : "self = <test.pytest_allure_test.TestAllure object at 0x105d75668>\n\n    @allure.story('test_story_05_of_module')\n    @allure.severity('critical')\n    @allure.issue('https://github.com/leefyi')\n    @allure.testcase('http://www.testlink.com')\n    def test_str(self):\n        str1 = 'hello'\n        str2 = 'world'\n    \n>       assert str_concat(str1, str2) == 'Hello World'\nE       AssertionError: assert 'helloworld' == 'Hello World'\nE         - helloworld\nE         ? ^    ^\nE         + Hello World\nE         ? ^    ^^\n\npytest_allure_test.py:73: AssertionError",
+    "steps" : [ {
+      "name" : "字符串相加",
+      "time" : {
+        "start" : 1539001396333,
+        "stop" : 1539001396333,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test module"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "bogon"
+  }, {
+    "name" : "issue",
+    "value" : "https://github.com/leefyi"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "story",
+    "value" : "test_story_05_of_module"
+  }, {
+    "name" : "testId",
+    "value" : "http://www.testlink.com"
+  }, {
+    "name" : "thread",
+    "value" : "1461-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test"
+  }, {
+    "name" : "testClass",
+    "value" : "test"
+  }, {
+    "name" : "testMethod",
+    "value" : "pytest_allure_test.TestAllure.test_str"
+  }, {
+    "name" : "package",
+    "value" : "test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://github.com/leefyi",
+    "url" : "https://github.com/leefyi",
+    "type" : "issue"
+  }, {
+    "name" : "http://www.testlink.com",
+    "url" : "http://www.testlink.com",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "5b76066717bb8bb9.json",
+  "parameterValues" : [ ]
+}

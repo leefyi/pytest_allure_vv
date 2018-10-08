@@ -1,0 +1,6 @@
+"Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"","test module","test_story_01_of_module","1","0","0","0","0"
+"","test module","test_story_02_of_module","0","0","1","0","0"
+"","test module","test_story_05_of_module","1","0","0","0","0"
+"","test module","test_story_03_of_module","0","0","0","1","0"
+"","test module","test_story_04_of_module","0","0","1","0","0"

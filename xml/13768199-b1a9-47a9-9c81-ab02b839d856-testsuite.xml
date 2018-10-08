@@ -1,0 +1,151 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1539001396272" stop="1539001396337">
+  <name>test</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1539001396272" status="failed" stop="1539001396324">
+      <description>
+        用例描述：module01-case01
+        </description>
+      <name>pytest_allure_test.TestAllure.test_case_01</name>
+      <failure>
+        <message>AssertionError: assert 0</message>
+        <stack-trace>self = &lt;test.pytest_allure_test.TestAllure object at 0x103b5ae48&gt;
+
+    @allure.story('test_story_01_of_module')
+    @allure.severity('blocker')
+    @allure.issue('https://github.com/leefyi')
+    @allure.testcase('http://www.testlink.com')
+    def test_case_01(self):
+        """
+            用例描述：module01-case01
+            """
+&gt;       assert 0
+E       assert 0
+
+pytest_allure_test.py:32: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="blocker"/>
+        <label name="story" value="test_story_01_of_module"/>
+        <label name="testId" value="http://www.testlink.com"/>
+        <label name="issue" value="https://github.com/leefyi"/>
+        <label name="feature" value="test module"/>
+        <label name="thread" value="1461-MainThread"/>
+        <label name="host" value="bogon"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1539001396326" status="passed" stop="1539001396327">
+      <description>
+        用例描述：module01-case02
+        </description>
+      <name>pytest_allure_test.TestAllure.test_case_02</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="story" value="test_story_02_of_module"/>
+        <label name="testId" value="http://www.testlink.com"/>
+        <label name="issue" value="https://github.com/leefyi"/>
+        <label name="feature" value="test module"/>
+        <label name="thread" value="1461-MainThread"/>
+        <label name="host" value="bogon"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1539001396328" status="canceled" stop="1539001396329">
+      <description>
+        用例描述：module02-case01
+        </description>
+      <name>pytest_allure_test.TestAllure.test_case_03</name>
+      <failure>
+        <message>Skipped: 暂不执行</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="minor"/>
+        <label name="story" value="test_story_03_of_module"/>
+        <label name="issue" value="https://github.com/leefyi"/>
+        <label name="testId" value="http://www.testlink.com"/>
+        <label name="feature" value="test module"/>
+        <label name="thread" value="1461-MainThread"/>
+        <label name="host" value="bogon"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1539001396330" status="passed" stop="1539001396331">
+      <description>
+        用例描述：module02-case02
+        </description>
+      <name>pytest_allure_test.TestAllure.test_case_04</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="critical"/>
+        <label name="story" value="test_story_04_of_module"/>
+        <label name="testId" value="http://www.testlink.com"/>
+        <label name="issue" value="https://github.com/leefyi"/>
+        <label name="feature" value="test module"/>
+        <label name="thread" value="1461-MainThread"/>
+        <label name="host" value="bogon"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1539001396332" status="failed" stop="1539001396337">
+      <name>pytest_allure_test.TestAllure.test_str</name>
+      <failure>
+        <message>AssertionError: assert 'helloworld' == 'Hello World'
+  - helloworld
+  ? ^    ^
+  + Hello World
+  ? ^    ^^</message>
+        <stack-trace>self = &lt;test.pytest_allure_test.TestAllure object at 0x105d75668&gt;
+
+    @allure.story('test_story_05_of_module')
+    @allure.severity('critical')
+    @allure.issue('https://github.com/leefyi')
+    @allure.testcase('http://www.testlink.com')
+    def test_str(self):
+        str1 = 'hello'
+        str2 = 'world'
+    
+&gt;       assert str_concat(str1, str2) == 'Hello World'
+E       AssertionError: assert 'helloworld' == 'Hello World'
+E         - helloworld
+E         ? ^    ^
+E         + Hello World
+E         ? ^    ^^
+
+pytest_allure_test.py:73: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="critical"/>
+        <label name="story" value="test_story_05_of_module"/>
+        <label name="testId" value="http://www.testlink.com"/>
+        <label name="issue" value="https://github.com/leefyi"/>
+        <label name="feature" value="test module"/>
+        <label name="thread" value="1461-MainThread"/>
+        <label name="host" value="bogon"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1539001396333" status="passed" stop="1539001396333">
+          <name>字符串相加</name>
+          <title>字符串相加</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

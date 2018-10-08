@@ -1,0 +1,73 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "bogon",
+    "children" : [ {
+      "name" : "1461-MainThread",
+      "children" : [ {
+        "name" : "pytest_allure_test.TestAllure.test_case_01",
+        "uid" : "9487c689d6fe7dfe",
+        "parentUid" : "6bc817f484e993e0e74366d0e1eada89",
+        "status" : "failed",
+        "time" : {
+          "start" : 1539001396272,
+          "stop" : 1539001396324,
+          "duration" : 52
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "pytest_allure_test.TestAllure.test_case_02",
+        "uid" : "5672b226f8e05b48",
+        "parentUid" : "6bc817f484e993e0e74366d0e1eada89",
+        "status" : "passed",
+        "time" : {
+          "start" : 1539001396326,
+          "stop" : 1539001396327,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "pytest_allure_test.TestAllure.test_str",
+        "uid" : "5b76066717bb8bb9",
+        "parentUid" : "6bc817f484e993e0e74366d0e1eada89",
+        "status" : "failed",
+        "time" : {
+          "start" : 1539001396332,
+          "stop" : 1539001396337,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "pytest_allure_test.TestAllure.test_case_03",
+        "uid" : "8dc52f980cafdda2",
+        "parentUid" : "6bc817f484e993e0e74366d0e1eada89",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1539001396328,
+          "stop" : 1539001396329,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "pytest_allure_test.TestAllure.test_case_04",
+        "uid" : "13aa066a485b4153",
+        "parentUid" : "6bc817f484e993e0e74366d0e1eada89",
+        "status" : "passed",
+        "time" : {
+          "start" : 1539001396330,
+          "stop" : 1539001396331,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6bc817f484e993e0e74366d0e1eada89"
+    } ],
+    "uid" : "2073f7d556df5d27a604e307fdf127df"
+  } ]
+}

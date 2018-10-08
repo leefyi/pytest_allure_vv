@@ -1,0 +1,14 @@
+"Status","Name","Duration in ms","Description"
+"failed","test.pytest_allure_test.TestAllure.test_case_01","52","
+        用例描述：module01-case01
+        "
+"passed","test.pytest_allure_test.TestAllure.test_case_02","1","
+        用例描述：module01-case02
+        "
+"failed","test.pytest_allure_test.TestAllure.test_str","5",""
+"skipped","test.pytest_allure_test.TestAllure.test_case_03","1","
+        用例描述：module02-case01
+        "
+"passed","test.pytest_allure_test.TestAllure.test_case_04","1","
+        用例描述：module02-case02
+        "

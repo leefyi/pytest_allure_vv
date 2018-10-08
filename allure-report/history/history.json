@@ -1,0 +1,100 @@
+{
+  "6f8c86174f63af69a2c63c696d4ed1f1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6f9895d4c2de6961",
+      "status" : "passed",
+      "time" : {
+        "start" : 1534659030963,
+        "stop" : 1534659030964,
+        "duration" : 1
+      }
+    } ]
+  },
+  "a4860fab28a7ea6842e91182612631e8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "efac2d6efa0d6874",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 暂不执行",
+      "time" : {
+        "start" : 1534659030965,
+        "stop" : 1534659030967,
+        "duration" : 2
+      }
+    } ]
+  },
+  "1380422053d11ce561eac7a6c9af04c0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "937c0adef1674d2d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1534659030968,
+        "stop" : 1534659030970,
+        "duration" : 2
+      }
+    } ]
+  },
+  "43a6266d37c85d6ca3934ae4522cb826" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6434fbf8169aa686",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 0",
+      "time" : {
+        "start" : 1534659030881,
+        "stop" : 1534659030962,
+        "duration" : 81
+      }
+    } ]
+  },
+  "fe9b29ae71c2b49f79f872c2541d47b2" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fc845a3dfbca551f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'helloworld' == 'Hello World'\n  - helloworld\n  ? ^    ^\n  + Hello World\n  ? ^    ^^",
+      "time" : {
+        "start" : 1534659030971,
+        "stop" : 1534659030979,
+        "duration" : 8
+      }
+    } ]
+  }
+}

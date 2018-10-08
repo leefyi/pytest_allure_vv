@@ -1,0 +1,41 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 0",
+      "children" : [ {
+        "name" : "pytest_allure_test.TestAllure.test_case_01",
+        "uid" : "9487c689d6fe7dfe",
+        "parentUid" : "c9c77d7ae15b4ab6e63220cefc19b68f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1539001396272,
+          "stop" : 1539001396324,
+          "duration" : 52
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c9c77d7ae15b4ab6e63220cefc19b68f"
+    }, {
+      "name" : "AssertionError: assert 'helloworld' == 'Hello World'\n  - helloworld\n  ? ^    ^\n  + Hello World\n  ? ^    ^^",
+      "children" : [ {
+        "name" : "pytest_allure_test.TestAllure.test_str",
+        "uid" : "5b76066717bb8bb9",
+        "parentUid" : "cccc33cd74ce112e14f003d41bfa6afd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1539001396332,
+          "stop" : 1539001396337,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cccc33cd74ce112e14f003d41bfa6afd"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

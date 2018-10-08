@@ -1,0 +1,80 @@
+{
+  "uid" : "13aa066a485b4153",
+  "name" : "pytest_allure_test.TestAllure.test_case_04",
+  "fullName" : "test.pytest_allure_test.TestAllure.test_case_04",
+  "historyId" : "cc33361ee0ff2f6eb0d8541172ee92c2",
+  "time" : {
+    "start" : 1539001396330,
+    "stop" : 1539001396331,
+    "duration" : 1
+  },
+  "description" : "\n        用例描述：module02-case02\n        ",
+  "descriptionHtml" : "<pre><code>    用例描述：module02-case02\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test module"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "bogon"
+  }, {
+    "name" : "issue",
+    "value" : "https://github.com/leefyi"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "story",
+    "value" : "test_story_04_of_module"
+  }, {
+    "name" : "testId",
+    "value" : "http://www.testlink.com"
+  }, {
+    "name" : "thread",
+    "value" : "1461-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test"
+  }, {
+    "name" : "testClass",
+    "value" : "test"
+  }, {
+    "name" : "testMethod",
+    "value" : "pytest_allure_test.TestAllure.test_case_04"
+  }, {
+    "name" : "package",
+    "value" : "test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://github.com/leefyi",
+    "url" : "https://github.com/leefyi",
+    "type" : "issue"
+  }, {
+    "name" : "http://www.testlink.com",
+    "url" : "http://www.testlink.com",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "13aa066a485b4153.json",
+  "parameterValues" : [ ]
+}

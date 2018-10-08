@@ -1,0 +1,51 @@
+[ {
+  "uid" : "9487c689d6fe7dfe",
+  "name" : "pytest_allure_test.TestAllure.test_case_01",
+  "time" : {
+    "start" : 1539001396272,
+    "stop" : 1539001396324,
+    "duration" : 52
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "5672b226f8e05b48",
+  "name" : "pytest_allure_test.TestAllure.test_case_02",
+  "time" : {
+    "start" : 1539001396326,
+    "stop" : 1539001396327,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5b76066717bb8bb9",
+  "name" : "pytest_allure_test.TestAllure.test_str",
+  "time" : {
+    "start" : 1539001396332,
+    "stop" : 1539001396337,
+    "duration" : 5
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "8dc52f980cafdda2",
+  "name" : "pytest_allure_test.TestAllure.test_case_03",
+  "time" : {
+    "start" : 1539001396328,
+    "stop" : 1539001396329,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "minor"
+}, {
+  "uid" : "13aa066a485b4153",
+  "name" : "pytest_allure_test.TestAllure.test_case_04",
+  "time" : {
+    "start" : 1539001396330,
+    "stop" : 1539001396331,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "critical"
+} ]

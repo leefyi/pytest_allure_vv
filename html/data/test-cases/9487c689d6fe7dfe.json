@@ -1,0 +1,86 @@
+{
+  "uid" : "9487c689d6fe7dfe",
+  "name" : "pytest_allure_test.TestAllure.test_case_01",
+  "fullName" : "test.pytest_allure_test.TestAllure.test_case_01",
+  "historyId" : "cfe552963784ed48d9ca54320a906c9e",
+  "time" : {
+    "start" : 1539001396272,
+    "stop" : 1539001396324,
+    "duration" : 52
+  },
+  "description" : "\n        用例描述：module01-case01\n        ",
+  "descriptionHtml" : "<pre><code>    用例描述：module01-case01\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 0",
+  "statusTrace" : "self = <test.pytest_allure_test.TestAllure object at 0x103b5ae48>\n\n    @allure.story('test_story_01_of_module')\n    @allure.severity('blocker')\n    @allure.issue('https://github.com/leefyi')\n    @allure.testcase('http://www.testlink.com')\n    def test_case_01(self):\n        \"\"\"\n            用例描述：module01-case01\n            \"\"\"\n>       assert 0\nE       assert 0\n\npytest_allure_test.py:32: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test module"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "bogon"
+  }, {
+    "name" : "issue",
+    "value" : "https://github.com/leefyi"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "test_story_01_of_module"
+  }, {
+    "name" : "testId",
+    "value" : "http://www.testlink.com"
+  }, {
+    "name" : "thread",
+    "value" : "1461-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test"
+  }, {
+    "name" : "testClass",
+    "value" : "test"
+  }, {
+    "name" : "testMethod",
+    "value" : "pytest_allure_test.TestAllure.test_case_01"
+  }, {
+    "name" : "package",
+    "value" : "test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://github.com/leefyi",
+    "url" : "https://github.com/leefyi",
+    "type" : "issue"
+  }, {
+    "name" : "http://www.testlink.com",
+    "url" : "http://www.testlink.com",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "9487c689d6fe7dfe.json",
+  "parameterValues" : [ ]
+}
